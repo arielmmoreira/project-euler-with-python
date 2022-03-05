@@ -43,6 +43,7 @@ def get_greatest_product():
             product *= number
 
         if product > greatest_product:
+            print(i)
             greatest_product = product
 
         product = 1
