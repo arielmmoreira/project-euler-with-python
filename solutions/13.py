@@ -7,5 +7,7 @@ with open("13.txt", "r") as file:
 
 numbers = [int(number) for number in numbers]
 sum_numbers = sum(numbers)
+print(len(str(sum_numbers)))
+print(sum_numbers)
 first_ten_digits = str(sum_numbers)[:10]
 print(first_ten_digits)
