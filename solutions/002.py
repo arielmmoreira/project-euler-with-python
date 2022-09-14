@@ -10,10 +10,9 @@ def get_sum():
     num = 0 # stores the next number of the sequence
     summatory = 2 # starts with the first even-valued term
 
-    while True:
+    while num <= limit:
         num = fibo_sequence[-1] + fibo_sequence[-2]
-        if num > limit:
-            break
+
         if num % 2 == 0:
             summatory += num
         fibo_sequence.append(num)
