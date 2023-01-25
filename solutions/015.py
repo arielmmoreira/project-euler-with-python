@@ -13,4 +13,7 @@ def fact(n):
 
 lattice = int(fact(rows + columns) / (fact(rows) * fact(columns)))
 
-print(lattice)
+
+
+print(fact(rows + columns))
+print(fact(rows) * fact(columns))
